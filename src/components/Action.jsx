@@ -2,6 +2,8 @@ import React from 'react'
 import gitaru from '../assets/img/gitaru.png'
 import star from '../assets/svg/star.svg'
 import usta from '../assets/img/usta.png'
+import spikin from '../assets/img/spikin.png'
+import gusht from '../assets/img/gusht.png'
 
 const Action = () => {
   return (
@@ -97,13 +99,11 @@ const Action = () => {
               <p class="absolute bottom-0 text-white bg-black/50 px-23 py-7 text-[24px]"> ОБУЧЕНИЕ</p>
             </div>
             <div>
-                <img src={usta} class="w-[300px] object-cover" />
-              <p class="absolute bottom-18 text-white bg-black/50 px-5 py-1 text-[23px] mb-3"> 
-              В нашей гитарной <br /> мастерской мы <br /> оказываем полный <br /> спектр услуг по ремонту <br /> и обслуживанию <br /> музыкальных <br /> инструментов, в том <br /> числе и изготовление на <br /> заказ. </p>
-              <p className='absolute bottom-0 bg-black/50 px-20 text-[19px] text-[#EA8305] py-7'>ПОКАЗАТЬ ЕЩЁ</p>
+                <img src={gusht} class="w-[300px] object-cover" />
+              <p className='absolute bottom-0 bg-black/50 px-20 text-[19px] text-[#EA8305] p'>ПОКАЗАТЬ ЕЩЁ</p>
              </div>
                 <div class="relative">
-                <img src={usta} class="w-[300px] object-cover" />
+                <img src={spikin} class="w-[300px] object-cover" />
               <p class="absolute bottom-0 text-white bg-black/50 px-23 py-7 text-[24px]"> РЕМОНТ</p>
              </div>
              </div>

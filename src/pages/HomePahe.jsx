@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Hemader from '../components/Hemader'
 import About from '../components/About'
 import Action from '../components/Action'
+import Footer from '../components/Footer'
 
 const HomePahe = () => {
   return (
@@ -11,6 +12,7 @@ const HomePahe = () => {
       <Hero/>
       <About/>
       <Action/>
+      <Footer/>
     </div>
   )
 }
